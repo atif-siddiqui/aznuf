@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+nav ul li{ 
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+}
+
+nav ul li a:hover{
+    color: grey;
+    font-weight: bold;
+}
+
+.searchbar{
+    display: flex;
+    align-items: center;
+    
+}
+.searchbar input{
+    width: 30vw;
+    height: 27px;
+    border-radius: 7px;
+    margin: 0 10px 0 56px;
+    padding: 0 12px;
+    border: 2px solid black;
+
+}
+
+.btn:hover{
+    color: grey;
+    font-weight: 900;
+    border: 2px solid grey;
+   
+}
+
+.join{
+    display: flex;
+    align-content: center;
+    overflow: hidden;
+}
+
+.join-btn:hover{
+    color: grey;
+    font-weight: 900;
+    border: 2px solid grey;
+
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+.slider{
+    margin: 12px auto;
+    width: 80vw;
+    overflow: hidden;
+    
+}
+.card{
+    max-width: 91vw;
+    margin: auto;
+    overflow: hidden;
+
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.card h2{
+    font-family: 'Pacifico', cursive;
+}
+.lines{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#contact{
+    background-color: rgb(39, 32, 32);
+    color: white;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.h-primary {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+.form-group{
+    display: flex;
+    justify-content: center;
+    align-content: center;  
+}
+
+label{
+    font-family: 'Pacifico', cursive;
+    margin: 15px 5px;
+}
+
+input{
+    width: 40vw;
+    border-radius: 5px;
+    margin: 15px 10px;
+    border: 2px solid black;
+    align-items: center;
+}
+
+textarea{
+    width: 40vw;
+    border-radius: 5px;
+    margin: 15px 5px;
+}
+
+footer{
+    height: 12vh;
+    background-color: black;
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+
+::placeholder {
+    text-align: center;
+}
+   

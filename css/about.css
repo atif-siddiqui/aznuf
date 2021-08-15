@@ -1,0 +1,58 @@
+.about-container {
+    position: relative;
+    min-height: calc(100vh - 58px - 12vh);
+    
+
+}
+
+.about-container::before{
+    position: absolute;
+    content: "";
+    background-image: url(/img/Backgroud_about.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.about-heading {
+    display: flex;
+    justify-content: center;
+    font-size: xxx-large;
+    padding: 70px 0 70px 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h3 {
+    display: flex;
+    justify-content: flex-start;
+    /* margin: auto; */
+    width: 40vw;
+    padding: 10px 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.about-para {
+    display: flex;
+    justify-content: flex-start;
+    /* margin: auto; */
+    width: 50vw;
+    padding: 10px 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.social-media{
+    display: flex;
+}
+
+.ins {
+    overflow: hidden;
+    width: 4vw;
+    padding: 0px 20px
+}
+
+.fb {
+    overflow: hidden;
+    width: 4vw;
+    padding: 0px 0px
+}
