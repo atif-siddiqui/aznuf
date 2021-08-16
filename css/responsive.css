@@ -34,6 +34,13 @@
     .slider{
         height: 25vh;
     }
+    
+    .card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 
     /* .card-item img {
         width: 120px;
