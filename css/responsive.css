@@ -44,7 +44,8 @@
     }
     
     .card-item{
-        padding: 2px auto;
+        padding: 2px 100px;
+
     }
 
     /* .card-item img {
